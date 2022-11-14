@@ -1,0 +1,20 @@
+{
+  "name": "media_query",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-sbd": "parcel serve styles-by-design/src/index.html",
+    "build-sbd": "parcel build styles-by-design/src/index.html --experimental-scope-hoisting",
+    "start-adis": "parcel serve all-design-in-styles/src/index.html",
+    "build-adis": "parcel build all-design-in-styles/src/index.html --experimental-scope-hoisting",
+    "start-is": "parcel serve import-styles/src/index.html",
+    "build-is": "parcel build import-styles/src/index.html --experimental-scope-hoisting"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.8.0"
+  }
+}

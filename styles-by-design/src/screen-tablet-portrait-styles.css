@@ -1,0 +1,16 @@
+body {
+  background-color: darkgrey;
+}
+
+.content-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  column-gap: 20px;
+}
+.summary {
+  display: flex;
+}
+
+.summary li {
+    flex: 1;
+  }

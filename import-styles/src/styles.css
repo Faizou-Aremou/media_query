@@ -1,0 +1,64 @@
+@import url(screen-mobile-styles.css) screen and (max-device-width: 500px);
+@import url(screen-tablet-landscape-styles.css) screen and (min-width: 31.25em)
+  and (orientation: landscape);
+@import url(screen-tablet-portrait-styles.css) screen and (min-width: 31.25em)
+  and (orientation: portrait);
+@import url(screen-desktop-styles.css) screen and (min-width: 67.5em);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 90%;
+  margin: 2em auto;
+  font: 1em/1.3 Arial, Helvetica, sans-serif;
+}
+.main-content {
+  display: grid;
+}
+.content-container {
+  display: grid;
+  margin-bottom: 1em;
+}
+
+a:link,
+a:visited {
+  color: #333;
+}
+
+nav ul,
+aside ul {
+  list-style: none;
+  padding: 0;
+}
+
+.summary a {
+  background-color: rgba(207, 232, 220, 0.2);
+  border: 2px solid rgb(79, 185, 227);
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  font-weight: bold;
+}
+.summary a:link {
+  color: cadetblue;
+}
+.summary a:visited {
+  color: blueviolet;
+}
+
+.summary a:hover {
+  background-color: rgba(207, 232, 220, 0.7);
+}
+
+.related {
+  background-color: rgba(79, 185, 227, 0.3);
+  border: 1px solid rgb(79, 185, 227);
+  padding: 10px;
+}
+
+.sidebar {
+  background-color: rgba(207, 232, 220, 0.5);
+  padding: 10px;
+}
